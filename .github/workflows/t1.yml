@@ -1,6 +1,8 @@
-name: learn-github-actions
+name: print-hi
 on: [push]
 jobs:
-   steps:
-      - run: echo 'Hi'
-
+   build:
+     runs-on: ubuntu-latest
+     steps:
+         - run : echo 'hi'
+ 
